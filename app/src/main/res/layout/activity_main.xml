@@ -18,6 +18,7 @@
         android:hint="correo electronico"
         android:inputType="textEmailAddress"
         android:textColor="#FCFFFFFF"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,6 +36,7 @@
         android:hint="password"
         android:inputType="numberPassword"
         android:textColor="#FFFCFC"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,6 +50,7 @@
         android:background="#C50F0F"
         android:backgroundTint="#FFFFFF"
         android:text="INGRESAR"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtPass" />
