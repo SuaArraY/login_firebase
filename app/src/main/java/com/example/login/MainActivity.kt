@@ -1,5 +1,6 @@
 package com.example.login
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -35,7 +36,13 @@ firebaseAuth = Firebase.auth
               if (task.isSuccessful)
               {
                   val user = firebaseAuth.currentUser
-                  Toast.makeText(baseContext,user?.uid.toString(),Toast.LENGTH_LONG).show()
+                  Toast.makeText(baseContext,"Exitoso",Toast.LENGTH_LONG).show()
+                  //Toast.makeText(baseContext,user?.uid.toString(),Toast.LENGTH_LONG).show()
+
+                  val i = Intent(this,MainActivity2::class.java)
+                  startActivity(i)
+
+
               }
               else
               {
